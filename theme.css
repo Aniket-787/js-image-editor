@@ -1,0 +1,43 @@
+:root{
+    /* ===== Background Colors ===== */
+    --bg-primary-color:#061E29;        /* app background */
+    --bg-secondary-color:#0f2d3b;      /* cards / panels */
+    --bg-active-color:#1b3f4d;         /* active / sliders */
+    --bg-hover-color:#164657;          /* hover states */
+
+    --bg-danger-color:#e53935;         /* delete / reset */
+    --bg-success-color:#4caf50;        /* confirm / apply */
+
+    /* ===== Text Colors ===== */
+    --text-primary-color:#ffffff;
+    --text-secondary-color:#cfd8dc;
+    --text-muted-color:#90a4ae;
+
+    /* ===== Padding ===== */
+    --padding-sm:0.25rem 0.5rem;
+    --padding-md:0.5rem 1rem;
+    --padding-lg:1rem 1.5rem;
+    --padding-xl:1.5rem 2rem;
+    --padding-2xl:2rem 2.5rem;
+
+    /* ===== Gutter ===== */
+    --gutter-sm:0.25rem;
+    --gutter-md:0.5rem;
+    --gutter-lg:1rem;
+    --gutter-xl:1.2rem;
+    --gutter-2xl:1.5rem;
+
+    /* ===== Font Size ===== */
+    --font-size-sm:0.75rem;
+    --font-size-md:0.9rem;
+    --font-size-lg:1rem;
+    --font-size-xl:1.2rem;
+    --font-size-2xl:1.5rem;
+
+    /* ===== Border Radius ===== */
+    --rd-sm:0.2rem;
+    --rd-md:0.4rem;
+    --rd-lg:0.6rem;
+    --rd-xl:0.8rem;
+    --rd-2xl:1rem;
+}
