@@ -99,15 +99,16 @@ html,body{
 
 .section .right{
   background-color: var(--bg-secondary-color);
+  aspect-ratio: 3/2;
   display: flex;
   flex-direction: column;
-  padding: var(--padding-lg);
+  padding: var(--padding-md);
 }
 
 .bottom .right .filters{
     display: flex;
     flex-direction: column;
-    padding: var(--padding-md);
+    padding: var(--padding-sm);
 }
 .filters h2{
     color: white;
@@ -118,7 +119,7 @@ html,body{
 .filters .filter{
     display: flex;
     flex-direction: column;
-    padding-top: 2rem;
+    padding-top: 1.1rem;
     gap: var(--gutter-lg);
 }
 
