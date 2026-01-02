@@ -150,3 +150,9 @@ html,body{
     margin-top: -0.35rem; 
     cursor: pointer;
 }
+
+
+#canvas{
+    max-width:90%;
+    max-height:70vh;
+}

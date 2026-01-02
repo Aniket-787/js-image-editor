@@ -87,7 +87,23 @@ function createFilterElement(name,unit="%",value,min,max){
 
 Object.keys(filters).forEach(filter=>{
       let filterE1 = createFilterElement(filter,filters[filter].unit,filters[filter].value,filters[filter].min,filters[filter].max)  
-      console.log(filterE1);
-      
+        
       filterContainer.appendChild(filterE1)
 })
+
+let canvas = document.querySelector('#canvas')
+let inputImg = document.querySelector('#input-image')
+let canvactx = canvas.getContext("2d")
+let placeholder = document.querySelector('.placeholder')
+inputImg.addEventListener('change',(e)=>{
+    let file = e.target.files[0]
+    let img = new Image();
+    img.src = URL.createObjectURL(file)
+    placeholder.style.display = "none"
+    img.onload=()=>{
+        canvas.height = img.height;
+        canvas.width = img.width;
+        canvactx.drawImage(img,0,0)
+    }
+})
+
